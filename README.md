@@ -52,8 +52,8 @@ One json object per document written to `insurance_quote_parser/output` director
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/ba-quote-parser.git
-cd ba-quote-parser
+git clone https://github.com/qasimza/insurance-quote-parser.git
+cd insurance-quote-parser
 ```
 ### 2. Create a Virtual Environment
 ```bash

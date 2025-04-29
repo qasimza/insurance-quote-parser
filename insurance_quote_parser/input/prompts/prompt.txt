@@ -44,6 +44,5 @@ Return only a JSON object with the following structure:
     }
   ]
 }
-
-Here is the extracted document text:
+This JSON object should be parsable using the python function json.loads(extracted_text).
 

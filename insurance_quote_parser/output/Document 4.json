@@ -1,0 +1,85 @@
+{
+  "liabilityInsuranceLimit": "$1,000,000",
+  "liabilityInsuranceSymbol": "7",
+  "medicalPaymentsLimit": "$5,000",
+  "medicalPaymentsSymbol": "7,8",
+  "uninsuredMotoristLimit": "See Schedule",
+  "uninsuredMotoristSymbol": "null",
+  "underinsuredMotoristLimit": "See Schedule",
+  "underinsuredMotoristSymbol": "null",
+  "personalInjuryProtectionLimit": "$734",
+  "personalInjuryProtectionSymbol": "2",
+  "hiredAutoLimit": "$50,000",
+  "hiredAutoSymbol": "null",
+  "nonOwnedAutoLiabilityLimit": "null",
+  "nonOwnedAutoLiabilitySymbol": "null",
+  "collisionLimit": "$1,000",
+  "collisionDeductible": "$1,000",
+  "comprehensiveLimit": "$1,000",
+  "comprehensiveDeductible": "$5",
+  "vehicleSchedule": [
+    {
+      "year": "2021",
+      "make": "CHEVY",
+      "model": "2500HD",
+      "vin": "123456789",
+      "vehiclePremium": "$2,430",
+      "vehicleCost": "$38,445"
+    },
+    {
+      "year": "2012",
+      "make": "CHEVY",
+      "model": "C2500",
+      "vin": "123456789",
+      "vehiclePremium": "$2,309",
+      "vehicleCost": "$27,300"
+    },
+    {
+      "year": "2020",
+      "make": "DITCH",
+      "model": "TRAILER",
+      "vin": "123456789",
+      "vehiclePremium": "$229",
+      "vehicleCost": "$5,000"
+    },
+    {
+      "year": "2011",
+      "make": "TRAIL",
+      "model": "TRAILER",
+      "vin": "123456789",
+      "vehiclePremium": "$229",
+      "vehicleCost": "$5,000"
+    },
+    {
+      "year": "2000",
+      "make": "FREIGH",
+      "model": "FL-70",
+      "vin": "123456789",
+      "vehiclePremium": "$2,633",
+      "vehicleCost": "$53,623"
+    },
+    {
+      "year": "2006",
+      "make": "FORD",
+      "model": "F650SD",
+      "vin": "123456789",
+      "vehiclePremium": "$2,633",
+      "vehicleCost": "$47,645"
+    },
+    {
+      "year": "1989",
+      "make": "PETERB",
+      "model": "377",
+      "vin": "123456789",
+      "vehiclePremium": "$6,420",
+      "vehicleCost": "$83,570"
+    }
+  ],
+  "driverSchedule": [
+    {
+      "fullName": "null",
+      "dateOfBirth": "null",
+      "licenseNumber": "null"
+    }
+  ]
+}

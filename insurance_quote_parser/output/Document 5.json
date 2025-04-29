@@ -1,0 +1,142 @@
+{
+  "liabilityInsuranceLimit": "$1,000,000.00",
+  "liabilityInsuranceSymbol": "1",
+  "medicalPaymentsLimit": "$5,000",
+  "medicalPaymentsSymbol": "2",
+  "uninsuredMotoristLimit": "$1,000,000",
+  "uninsuredMotoristSymbol": "2",
+  "underinsuredMotoristLimit": "Included",
+  "underinsuredMotoristSymbol": "2",
+  "personalInjuryProtectionLimit": "null",
+  "personalInjuryProtectionSymbol": "null",
+  "hiredAutoLimit": "Included",
+  "hiredAutoSymbol": "null",
+  "nonOwnedAutoLiabilityLimit": "Included",
+  "nonOwnedAutoLiabilitySymbol": "null",
+  "collisionLimit": "ACV less deductible",
+  "collisionDeductible": "$1,000",
+  "comprehensiveLimit": "ACV less deductible",
+  "comprehensiveDeductible": "$500",
+  "vehicleSchedule": [
+    {
+      "year": "2018",
+      "make": "GMC",
+      "model": "YUKON",
+      "vin": "null",
+      "vehiclePremium": "$2,530.00",
+      "vehicleCost": "$60,130"
+    },
+    {
+      "year": "2007",
+      "make": "GMC",
+      "model": "YUKON",
+      "vin": "null",
+      "vehiclePremium": "$2,866.00",
+      "vehicleCost": "$47,115"
+    },
+    {
+      "year": "2020",
+      "make": "FORD",
+      "model": "TRANSIT",
+      "vin": "null",
+      "vehiclePremium": "$2,226.00",
+      "vehicleCost": "$54,840"
+    },
+    {
+      "year": "2020",
+      "make": "FORD",
+      "model": "TRANSIT",
+      "vin": "null",
+      "vehiclePremium": "$2,226.00",
+      "vehicleCost": "$54,840"
+    },
+    {
+      "year": "2020",
+      "make": "FORD",
+      "model": "TRANSIT",
+      "vin": "null",
+      "vehiclePremium": "$2,226.00",
+      "vehicleCost": "$46,592"
+    },
+    {
+      "year": "2021",
+      "make": "FORD",
+      "model": "TRANSIT",
+      "vin": "null",
+      "vehiclePremium": "$2,618.00",
+      "vehicleCost": "$53,545"
+    },
+    {
+      "year": "2021",
+      "make": "FORD",
+      "model": "F150",
+      "vin": "null",
+      "vehiclePremium": "$2,226.00",
+      "vehicleCost": "$45,195"
+    },
+    {
+      "year": "2021",
+      "make": "FORD",
+      "model": "F150",
+      "vin": "null",
+      "vehiclePremium": "$2,226.00",
+      "vehicleCost": "$45,195"
+    },
+    {
+      "year": "2022",
+      "make": "WELLS CARG",
+      "model": "TRAILER",
+      "vin": "null",
+      "vehiclePremium": "$373.00",
+      "vehicleCost": "$14,600"
+    },
+    {
+      "year": "2021",
+      "make": "FORD",
+      "model": "TRANSIT",
+      "vin": "null",
+      "vehiclePremium": "$2,226.00",
+      "vehicleCost": "$40,545"
+    },
+    {
+      "year": "2019",
+      "make": "AUDI",
+      "model": "Q7",
+      "vin": "null",
+      "vehiclePremium": "$1,801.00",
+      "vehicleCost": "$62,250"
+    }
+  ],
+  "driverSchedule": [
+    {
+      "fullName": "Brad Pitt",
+      "dateOfBirth": "Information suppressed",
+      "licenseNumber": "Information suppressed"
+    },
+    {
+      "fullName": "Lucy Liu",
+      "dateOfBirth": "Information suppressed",
+      "licenseNumber": "Information suppressed"
+    },
+    {
+      "fullName": "Adam Brody",
+      "dateOfBirth": "Information suppressed",
+      "licenseNumber": "Information suppressed"
+    },
+    {
+      "fullName": "Blake Lively",
+      "dateOfBirth": "Information suppressed",
+      "licenseNumber": "Information suppressed"
+    },
+    {
+      "fullName": "Jake Tapper",
+      "dateOfBirth": "Information suppressed",
+      "licenseNumber": "Information suppressed"
+    },
+    {
+      "fullName": "Robin Roberts",
+      "dateOfBirth": "Information suppressed",
+      "licenseNumber": "Information suppressed"
+    }
+  ]
+}

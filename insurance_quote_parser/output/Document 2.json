@@ -1,0 +1,22 @@
+{
+  "liabilityInsuranceLimit": "$1,000,000",
+  "liabilityInsuranceSymbol": "1",
+  "medicalPaymentsLimit": "Information suppressed",
+  "medicalPaymentsSymbol": "null",
+  "uninsuredMotoristLimit": "Information suppressed",
+  "uninsuredMotoristSymbol": "2",
+  "underinsuredMotoristLimit": "Information suppressed",
+  "underinsuredMotoristSymbol": "2",
+  "personalInjuryProtectionLimit": "Statutory Minimum Limits",
+  "personalInjuryProtectionSymbol": "5",
+  "hiredAutoLimit": "null",
+  "hiredAutoSymbol": "null",
+  "nonOwnedAutoLiabilityLimit": "null",
+  "nonOwnedAutoLiabilitySymbol": "null",
+  "collisionLimit": "ACV less deductible",
+  "collisionDeductible": "$1,000",
+  "comprehensiveLimit": "ACV less deductible",
+  "comprehensiveDeductible": "$1,000",
+  "vehicleSchedule": [],
+  "driverSchedule": []
+}

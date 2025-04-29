@@ -5,7 +5,7 @@ from pypdf import PdfReader
 from openai import OpenAI
 import json
 
-OPENAI_API_KEY = ""
+OPENAI_API_KEY = "" # Should be in .env for production
 
 def get_pdf_list() -> list:
     parent_dir = os.path.dirname(os.path.abspath(__file__))

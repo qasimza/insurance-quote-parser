@@ -2,7 +2,7 @@
 An LLM Service for Parsing Arbitrary Business Auto Insurance Quotes into a Consolidated Data Structure.
 
 ## Input 
-Business Auto (BA) quote documents.
+Business Auto (BA) quote documents as pdfs. Text is extracted using the `pypdf` module and passed to openAI's `gpt-4.1-mini` model (selected for its cost, speed and accuracy).
 
 ## Output 
 One json object per document written to `insurance_quote_parser/output` directory. Format specified below:

@@ -49,19 +49,62 @@ One json object per document written to `insurance_quote_parser/output` director
 ```
 
 ## Developer Instructions
-Create venv
-Install requirements 
-Run application
 
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/ba-quote-parser.git
+cd ba-quote-parser
+```
+### 2. Create a Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate         # On Windows: venv\Scripts\activate
+```
+### 3. Install Requirements
+```bash
+pip3 install -r requirements.txt
+```
+### 4. Add Your OpenAI API Key
+Open `parser.py` and insert your OpenAI API key at the top of the file:
+```bash
+import openai
+openai.api_key = "your_openai_api_key_here"
+```
+### 5. Run the Application
+```bash
+python3 insurance_quote_parser/parser.py
+```
+### 6. Output
+Extracted JSON files will be saved to the `./output/` directory.
 
 ## Testing and Results
+
+Given time constraints, the current implementation only validates whether the OpenAI-generated output is saved as a `.json` file.
+
+### Planned Test Rubric (if time permitted)
+
+| Test Case Description                                      | Pass Criteria                                                                 |
+|-----------------------------------------------------------|-------------------------------------------------------------------------------|
+| **1. JSON File Format**                                   | A `.json` file is successfully written for each PDF in the output directory. |
+| **2. Presence of Required Keys**                          | All top-level keys and nested field keys are present in the output JSON.     |
+| **3. Structural Integrity**                               | The JSON structure strictly matches the specified schema (e.g., no extra/missing nesting). |
+| **4. Value Accuracy**                                     | Extracted values match the source PDF content exactly or with acceptable formatting normalization. |
+| **5. Non-null Fields Where Expected**                     | Fields that should have values (e.g., vehicle make/model) are not empty or `null`, unless justifiably missing. |
+| **6. Robustness to Layout Variation** (stretch goal)      | Application produces valid output even when the document structure varies across different carriers. |
+| **7. Graceful Handling of Missing/Suppressed Data**       | Fields are marked as `null` or `"Information suppressed"` as needed, without breaking the structure. |
+| **8. Multiple Entry Handling**                            | Lists like `vehicleSchedule[]` and `driverSchedule[]` contain all entries from the PDF. |
+
+> Note that only test #1 is currently implemented as a `try-except` block in the `run()` function of `parser.py`. Others remain conceptual for future improvements.
 
 ## Design Decisions 
 - Shortest possible prompt 
 - Guardrails to prevent hallucinations 
 - Output validation and testing
 
+## References 
 
+### OpenAI Prompt Engineering Guide 
+https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api
 
 
 

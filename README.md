@@ -96,10 +96,16 @@ Given time constraints, the current implementation only validates whether the Op
 
 > Note that only test #1 is currently implemented as a `try-except` block in the `run()` function of `parser.py`. Others remain conceptual for future improvements.
 
-## Design Decisions 
-- Shortest possible prompt 
-- Guardrails to prevent hallucinations 
-- Output validation and testing
+## Prompt Design Decisions 
+1. **Role Definition**: The prompt casts the model as an "expert data extraction assistant" to encourage structured, task-oriented output.
+
+2. **Input Clarification**: Specifies that the input is extracted text (not raw PDF), simplifying the model’s responsibilities.
+
+3. **Explicit Null Handling**: Standardizes how to handle missing (`"null"`) and suppressed (`"Information suppressed"`) values to ensure consistency.
+
+4. **Terminology Flexibility**: Instructs the model to use contextual clues for matching varied insurance terms (e.g., “Bodily Injury Liability” → `liabilityInsurance`).
+
+5. **Standardized Formatting**: Enforces consistent formats for currency, dates, and coverage limits to simplify downstream validation.
 
 ## References 
 
